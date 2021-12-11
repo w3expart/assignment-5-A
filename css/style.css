@@ -1,0 +1,226 @@
+*{
+	margin: 0;
+	padding:0;
+}
+*{
+	font-family: 'Poppins', sans-serif;
+}
+/*font-family: 'Poppins', sans-serif;*/
+a{
+	text-decoration: none;
+}
+.header{
+	width: 100%;
+	padding: 30px 0px;
+}
+.container{
+		width: 1140px;
+		margin: 0px auto;
+}
+.logo img{
+	width: 150px;
+}
+.nav{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.menu ul{
+	margin-right: 450px;
+}
+.menu ul li{
+	font-size: 16px;
+	font-weight: 500;
+	list-style: none;
+	display: inline-block;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.menu ul li a{
+	color:black;
+}
+.menu ul{
+	line-height: 50px;
+}
+button{
+	background-color: #ff6162;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-style: none;
+	border-radius: 8px;
+
+}
+button a{
+	color:#f5f5f5;
+	font-weight: 600;
+
+}
+
+/*banner css start form here*/
+
+.baneer{
+	width: 100%;
+	height: 100vh;
+}
+.demo-head{
+	margin: 1px 485px 30px 485px;
+}
+.demo-head p{
+	font-size: 16px;
+	color: #9b9b9b;
+	font-weight: 300;
+
+}
+.banner-content{
+	display: flex;
+	margin-top: 170px;
+	margin-bottom: 170px;
+
+}
+.banner-left, .banner-right{
+	flex-basis: 50%;
+}
+
+h1{
+	font-size: 32px;
+
+}
+.banner-left p{
+		margin-top: 30px;
+		font-size: 16px;
+		color: #9b9b9b;
+		font-weight: 300;
+
+}
+.banner-left i{
+	font-size: 35px;
+    margin-top: 10px;
+    color: #e3e3e3;
+}
+
+.banner-left{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+
+
+.shape{
+	padding: 50px 1.5px;
+    background-color: #f5f5f5;
+    justify-content: center;
+    margin-left: 582px;
+    margin-right: 560px;
+}
+/*banner css end form here*/
+
+/*demo css start form here*/
+
+.demo{
+	width: 100%;
+	padding: 60px 0px;
+}
+.demo{
+	margin-top: 50px;
+}
+.demo-head{
+	text-align: center;
+}
+.demo-content{
+	display: flex;
+	justify-content: center;
+	margin: 0px 20px;
+}
+.demo-content img{
+	width: 380px;
+	height: auto;
+
+}
+.shape-2{
+
+}
+
+/*demo css end form here*/
+
+
+/*featurs css start form here*/
+.service{
+	width: 100%;
+
+}
+.service{
+	margin: 70px 0px;
+}
+.service-head{
+	text-align: center;
+}
+.service-head p{
+	font-size: 16px;
+	color: #9b9b9b;
+	font-weight: 300;
+}
+.service-box{
+	width: 100%;
+	padding: 30px 0px;
+}
+.service-box{
+	display: grid;
+	grid-template-columns: auto auto auto
+}
+.service-box{
+
+}
+
+.service-1, .service-2, .service-3{
+	background-color: #f3f3f3;
+	margin: 10px;
+	text-align: center;
+	padding:  26px 12px; 
+	border-radius:8px;
+}
+.service-4, .service-5, .service-6{
+	background-color: #f3f3f3;
+	margin: 10px;
+	text-align: center;
+	padding: 26px 12px 40px 12px; 
+	border-radius:8px;
+}
+
+.service-1 i, .service-2 i, .service-3 i, .service-4 i, .service-5 i, .service-6 i{
+		    background-color: white;
+		    padding: 12px;
+	    	border-radius: 100%;
+	  		font-size: 30px;
+	  		color: #ff5e5f;
+}
+
+h3{
+	font-size: 16px;
+}
+
+.service-box p{
+	font-size: 16px;
+	color: #9b9b9b;
+	font-weight: 300;
+}
+/*featurs css end form here*/
+
+/*footer css end form here*/
+.footer{
+	width: 100%;
+}
+.footer-content{
+	background-color: #292640;
+	padding: 90px 535px;
+    text-align: center;
+}
+.footer-content h4{
+		font-size: 40px;
+		color: white;
+}
+/*footer css end form here*/
